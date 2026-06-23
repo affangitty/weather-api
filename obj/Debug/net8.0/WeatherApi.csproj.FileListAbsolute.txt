@@ -33,3 +33,4 @@ C:\Users\affan\Desktop\Docker GS\sample\WeatherApi\obj\Debug\net8.0\refint\Weath
 C:\Users\affan\Desktop\Docker GS\sample\WeatherApi\obj\Debug\net8.0\WeatherApi.pdb
 C:\Users\affan\Desktop\Docker GS\sample\WeatherApi\obj\Debug\net8.0\WeatherApi.genruntimeconfig.cache
 C:\Users\affan\Desktop\Docker GS\sample\WeatherApi\obj\Debug\net8.0\ref\WeatherApi.dll
+C:\Users\affan\Desktop\Docker GS\sample\WeatherApi\obj\Debug\net8.0\WeatherApi.sourcelink.json
