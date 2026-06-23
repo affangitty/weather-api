@@ -1,5 +1,12 @@
 var builder = WebApplication.CreateBuilder(args);
 
+// Respect ASPNETCORE_URLS from the shell (launchSettings must not override it in Docker).
+var urls = Environment.GetEnvironmentVariable("ASPNETCORE_URLS");
+if (!string.IsNullOrWhiteSpace(urls))
+{
+    builder.WebHost.UseUrls(urls);
+}
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
